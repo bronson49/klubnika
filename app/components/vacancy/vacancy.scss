@@ -1,0 +1,66 @@
+.vacancy{
+
+  &__body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 90px 30px;
+  }
+  &-item{
+    max-width: 542px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    &__main, &__descr, &__btn{
+      display: flex;
+      justify-content: space-between;
+    }
+    &__main{
+      margin:40px 20px;
+    }
+    &__descr{
+      margin:10px 20px 40px;
+      p {
+        color: $green;
+        font-size: 12px;
+        font-weight: 600;
+        span {
+          font-size: 18px;
+          color: $black;
+          font-weight: 300;
+          img {
+            padding: 0 3px;
+          }
+        }
+      }
+    }
+  }
+  &-name{
+    font-size: 25px;
+    width: 40%;
+    font-family: SF-Bold, sans-serif;
+  }
+  &-prise{
+    font-size: 50px;
+    font-family: SF-Bold, sans-serif;
+    span {
+      font-size: 14px;
+    }
+  }
+  &-detail{
+    width: 100%;
+    padding-top: 30px ;
+    border: 1px solid $green;
+    color: $black;
+    height: 70px;
+    text-align: center;
+  }
+  &-order{
+    width: 100%;
+    padding-top: 30px ;
+    border: 1px solid $green;
+    background: $green;
+    color: white;
+    height: 70px;
+    text-align: center;
+  }
+}
