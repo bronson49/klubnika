@@ -1,2 +1,0 @@
-# klubnika
-klubnika
