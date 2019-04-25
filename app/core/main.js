@@ -1,3 +1,2 @@
-import {example} from "../components/example/example";
+import slickCarousel from 'slick-carousel/slick/slick.min';
 
-example();

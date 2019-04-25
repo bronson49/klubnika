@@ -6,6 +6,36 @@
 }
 
 body {
-  font-family: $roboto;
-  font-weight: 300;
+  font-family: OpenSans, sans-serif;
+  background: $background;
+  color: $black;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-family: SF-Bold, sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+h3 {
+  font-size: 18px;
+  text-align: center;
+  color: #324148;
+  font-weight: 200;
+  margin: 40px 30% 70px;
+}
+.container{
+  margin: 170px  $wrap-margin 0;
+  position: relative;
+}
+.bg{
+  position: absolute;
+}
+
+@media all and (max-width: 450px){
+
 }
