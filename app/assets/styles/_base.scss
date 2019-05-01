@@ -32,6 +32,10 @@ h3 {
 .container{
   margin: 170px  $wrap-margin 0;
   position: relative;
+  &-fat{
+    margin: 170px 0 0;
+    position: relative;
+  }
 }
 .bg{
   position: absolute;

@@ -1,0 +1,26 @@
+.cert{
+  margin: 200px 100px;
+  &__slider{
+    &-item{
+
+      &.slick-active img{
+        transform: scale(0.85);
+      }
+      &.slick-center img{
+        transform: scale(1);
+      }
+    }
+    &-img{
+      width: 400px;
+      margin: 0 auto;
+      transform: scale(0.7);
+      transition: .5s;
+    }
+  }
+}
+
+@media all and (max-width: 1700px){
+  .cert__slider-img{
+    width: 300px;
+  }
+}
