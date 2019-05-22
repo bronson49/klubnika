@@ -3,8 +3,9 @@ const eatFunc = function () {
         // infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
         dots: true,
+        prevArrow: $('.to-eat-prev'),
+        nextArrow: $('.to-eat-next'),
     });
 };
 

@@ -18,6 +18,11 @@
     }
   }
 }
+.cert__slider-controls{
+  margin-top: 30px;
+}
+.cert-prev{left: 48%}
+.cert-next{right: 48%}
 
 @media all and (max-width: 1700px){
   .cert__slider-img{

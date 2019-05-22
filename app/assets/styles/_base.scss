@@ -56,6 +56,40 @@ h3 {
   transition: 1s;
 }
 
+.slider-arr-prev, .slider-arr-next{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: $green;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.slider-arr-prev:hover, .slider-arr-next:hover{
+  background: white;
+}
+.slider-arr-prev:hover:before, .slider-arr-next:hover:before{
+  border-left: 1px solid $green;
+  border-bottom: 1px solid $green;
+}
+.slider-arr-prev:before, .slider-arr-next:before{
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  left: 12px;
+  top: 10px;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  transform: rotate(45deg);
+}
+.slider-arr-next{
+  left: auto;
+  &:before{
+    left: 7px;
+    transform: rotate(-135deg);
+  }
+}
+
 @media all and (max-width: 1700px){
   h3 {
     margin: 40px 20% 70px;

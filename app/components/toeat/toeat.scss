@@ -10,7 +10,7 @@
     }
     & .slick-dots {
       width: auto;
-      left: 47%;
+      left: calc(50% - 40px);
       bottom: 5px;
       &:before{
         position: absolute;
@@ -26,5 +26,14 @@
         color: white;
       }
     }
+  }
+  &-prev{
+    left: calc(50% - 85px);
+    bottom: 10px;
+  }
+
+  &-next{
+    right: calc(50% - 85px);
+    bottom: 10px;
   }
 }

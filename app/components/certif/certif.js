@@ -1,10 +1,13 @@
 
 const certFunc = function () {
     $('#certSlider').slick({
-       // infinite: true,
+        //infinite: false,
+        initialSlide: 3,
         slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
+        prevArrow: $('.cert-prev'),
+        nextArrow: $('.cert-next'),
         centerPadding: '200px',
         responsive: [
             {
