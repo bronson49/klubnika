@@ -1,0 +1,42 @@
+.benefits{
+  &__body{
+    display: flex;
+    justify-content: center;
+    &-item{
+      width: 25%;
+      margin: 0 100px;
+      p{
+        font-size: 25px;
+        font-family: SF-Bold, sans-serif;
+        padding: 70px 20px 30px;
+      }
+    }
+  }
+  &-good{
+    p {color: $green}
+    li:before{
+      content:  url('~images/good.svg');
+    }
+  }
+  &-bad{
+    p {color:  #CA3737;}
+    li:before{
+      content:  url('~images/bad.svg');
+    }
+  }
+  &-list{
+
+    &-item{
+      font-size: 16px;
+      margin: 30px 0;
+      position: relative;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      &:before{
+        position: absolute;
+        left: -90px;
+      }
+    }
+  }
+}
