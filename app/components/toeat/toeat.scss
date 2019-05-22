@@ -1,0 +1,30 @@
+.to-eat{
+  &__body{
+
+  }
+  &__slider{
+    &-item{
+      img {
+        margin: 0 auto;
+      }
+    }
+    & .slick-dots {
+      width: auto;
+      left: 47%;
+      bottom: 5px;
+      &:before{
+        position: absolute;
+        content: url('~images/eat-dots-bg.svg');
+        bottom: -10px;
+        left: -65%;
+      }
+    }
+    & .slick-dots li{
+      margin: 0 ;
+      & button:before{
+        font-size: 40px;
+        color: white;
+      }
+    }
+  }
+}

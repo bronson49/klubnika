@@ -1,0 +1,17 @@
+.to-live{
+  &__head{
+    h4 {
+      font-size: 25px;
+      text-align: center;
+      font-family: SF-Bold, sans-serif;
+      margin-bottom: 20px;
+    }
+  }
+  &__body{
+    margin:0 0 150px;
+   img  {
+     margin: 0 auto;
+     display: block;
+   }
+  }
+}
