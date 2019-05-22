@@ -1,0 +1,60 @@
+.earn {
+  background: url('~images/earn-bg.png') no-repeat ;
+  background-size: cover;
+  padding: 95px 0;
+  &__head {
+    color: $background;
+    h3 {
+      color: $background;
+      margin: 40px 20% 70px;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  &__body{
+    display: flex;
+    justify-content: center;
+    color: $background;
+    font-family: SF-Bold, sans-serif;
+    &-item{
+      width: 30%;
+      padding: 10px 5% 20px;
+      &:nth-child(2){
+        border-left: 1px solid $background;
+        border-right: 1px solid $background;
+      }
+      &_name{
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+      &_price{
+        font-size: 55px;
+        text-transform: uppercase;
+        white-space: nowrap;
+        margin-top: 25px;
+        span {
+          font-size: 13px;
+        }
+      }
+      &_descr{
+        font-size: 15px;
+        font-family: SF, sans-serif;
+      }
+    }
+  }
+}
+
+.bg {
+  &-earn{
+    &-1{
+      top: 700px;
+    }
+    &-2{
+      top: 1200px;
+    }
+    &-3{
+      top: 1000px;
+    }
+  }
+}
