@@ -4,10 +4,11 @@ import {menuFunc} from '../components/menu/menu';
 import {vacancyFunc} from '../components/vacancy/vacancy';
 import {certFunc} from '../components/certif/certif';
 import {eatFunc} from '../components/toeat/toeat';
+import {testimonialFunc} from '../components/testimonials/testimonials';
 
 menuFunc();
 vacancyFunc();
 eatFunc();
-
 certFunc();
+testimonialFunc();
 

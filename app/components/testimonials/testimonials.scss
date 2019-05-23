@@ -1,0 +1,75 @@
+.testimonial{
+
+  &:before{
+
+  }
+  &__head{
+    margin: 170px  $wrap-margin 0;
+    h2, h3{
+      text-align: left;
+      position: relative;
+      margin: 0 0 0 10%;
+    }
+    h3{
+      max-width: 470px;
+      padding:22px 0;
+    }
+    & h2:before{
+      position: absolute;
+      content: url("~images/opostrof.svg");
+      left: -95px;
+      top: -45px;
+    }
+  }
+}
+.testimon{
+  &-slider{
+    margin:80px 0 0 $wrap-margin;
+    &__item{
+      background: white;
+      width: 450px;
+      height: 360px;
+      padding: 50px;
+      border: 1px solid red;
+      margin: 0 30px;
+    }
+  }
+  &-head{
+    display: flex;
+    &__avatar{
+      position: relative;
+      &_link{
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+      }
+    }
+    &__name {
+      padding: 0 20px;
+      max-width: 240px;
+      p {
+        font-family: SF-Bold, sans-serif;
+        color: $green;
+      }
+      span {
+        font-family: SF-Bold, sans-serif;
+      }
+    }
+  }
+  &-text{
+    margin: 30px 0 0;
+  }
+  &__slider-controls {
+    position: absolute;
+    right: 25%;
+    top: 20px;
+  }
+  &-prev{
+    transform: scale(1.4);
+    left: -70px;
+  }
+  &-next{
+    transform: scale(1.4);
+
+  }
+}
