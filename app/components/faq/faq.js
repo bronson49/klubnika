@@ -10,6 +10,19 @@ const faqFunc = function () {
         });
         $(this).addClass('faq-open');
     });
+
+    $('.faq__body-category-list li').each(function (index) {
+        $(this).attr('data-faq', index);
+    });
+    $('.faq__body-category-list li').click(function () {
+        $('.active-faq').removeClass('active-faq');
+        $(this).addClass('active-faq');
+        let tabNumber = $(this).attr('data-faq');
+        let answers = $('.faq__body-answers-item')[tabNumber];
+        $('.active-faq-tab').removeClass('active-faq-tab');
+        $(answers).addClass('active-faq-tab');
+
+    });
 };
 
 export {faqFunc}
