@@ -33,6 +33,14 @@ const menuFunc= function () {
   $('#btnUp').click(function () {
       $('html, body').animate({ scrollTop: 0 }, 800);
   });
+  $('.menu__list-item a').click(function () {
+      let elementClick = $(this).attr("href");
+      let destination = $(elementClick).offset().top;
+      $('html, body').animate({ scrollTop: destination-100 }, 800);
+      $('.mobile-menu').removeClass('mobile-menu-open');
+      return false;
+  });
+  
 };
 
 export {menuFunc}

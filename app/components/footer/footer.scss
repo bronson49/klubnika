@@ -1,0 +1,17 @@
+.footer{
+  position: relative;
+  margin-top: 320px;
+  &__text{
+    text-align: center;
+    font-family: SF, sans-serif;
+    padding: 20px;
+    font-size: 12px;
+    color: white;
+  }
+  &-img{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+  }
+}

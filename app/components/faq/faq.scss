@@ -1,4 +1,5 @@
 .faq {
+
   &__head{
 
   }
@@ -7,9 +8,11 @@
     height: 350px;
     padding: 50px 20px 0 0;
     background: $background;
+    box-shadow: 0 14px 19px 0 rgba(0,0,0,0.2);
+    border-radius: 7px;
     &-category{
       width: 30%;
-      z-index: 2;
+
       &-list{
         li {
           display: flex;
@@ -105,6 +108,7 @@
   background: rgba(129, 199, 132, 0.1);
   padding: 170px 160px 0;
   position: relative;
+  z-index: 0;
 }
 
 .bg-elipse-bottom{
@@ -115,4 +119,5 @@
   left: 0;
   background: $background;
   border-radius:100% 100% 0 0 ;
+  z-index: -1;
 }
