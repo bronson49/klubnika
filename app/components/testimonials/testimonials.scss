@@ -89,15 +89,15 @@
 }
 
 .bg {
-  &testim{
+  &-testim{
     &-1{
-      top: 3000px;
+      top: 700px;
     }
     &-2{
-      top: 500px;
+      top: 1700px;
     }
     &-3{
-      top: 600px;
+      top: 1800px;
     }
   }
 }

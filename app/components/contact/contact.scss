@@ -1,0 +1,41 @@
+.contact{
+  &__body{
+    display: flex;
+
+    &-map{
+      width: 70%;
+    }
+    &-info{
+      width: 30%;
+      padding: 0 30px;
+      &-item{
+        padding: 0 30px;
+        margin: 35px 0;
+        h6{
+          position: relative;
+          font-size: 18px;
+          font-family: SF-Bold, sans-serif;
+          padding: 15px 0;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  &-img{
+    position: absolute;
+    left: -40px;
+  }
+}
+
+.bg {
+  &-contact{
+    &-1{
+      top: 3000px;
+    }
+    &-2{
+      top: 2800px;
+    }
+  }
+}
