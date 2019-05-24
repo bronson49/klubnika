@@ -86,14 +86,18 @@
   background: $background;
   //background: rgba(129, 199, 132, 0.1);
   border-radius:0 0 100% 100%;
+}
 
-  //&:before{
-  //  position: absolute;
-  //  width: 100%;
-  //  height: 140px;
-  //  content: '';
-  //  background: $background;
-  //  top: 0;
-  //  border-radius:0 0 100% 100%;
-  //}
+.bg {
+  &testim{
+    &-1{
+      top: 3000px;
+    }
+    &-2{
+      top: 500px;
+    }
+    &-3{
+      top: 600px;
+    }
+  }
 }
