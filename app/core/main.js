@@ -1,4 +1,5 @@
 import slickCarousel from 'slick-carousel/slick/slick.min';
+import Inputmask from 'inputmask/dist/jquery.inputmask.bundle';
 
 import {menuFunc} from '../components/menu/menu';
 import {vacancyFunc} from '../components/vacancy/vacancy';
@@ -7,6 +8,7 @@ import {eatFunc} from '../components/toeat/toeat';
 import {testimonialFunc} from '../components/testimonials/testimonials';
 import {faqFunc} from '../components/faq/faq';
 import {infoFunc} from '../components/info/info';
+import {popupFunc} from '../components/vacancyPopup/vacancyPopup';
 
 menuFunc();
 vacancyFunc();
@@ -15,4 +17,5 @@ certFunc();
 testimonialFunc();
 faqFunc();
 infoFunc();
+popupFunc();
 
