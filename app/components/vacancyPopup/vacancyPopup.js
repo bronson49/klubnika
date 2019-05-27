@@ -26,10 +26,8 @@ const popupFunc = function () {
             $(mailValid).css({'border': '1px solid black'});
 
             $.ajax({
-                // type: "POST",
-                // url: "send.php",
-                type: "GET",
-                url: "",
+                type: "POST",
+                url: "send.php",
                 data: $(this).serialize()
             }).done(function () {
                 $('.popup-body').hide();
