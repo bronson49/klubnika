@@ -63,3 +63,39 @@
     }
   }
 }
+
+.success-msg{
+  position: absolute;
+  top: 50%;
+  background: $background;
+  padding: 50px 200px;
+  text-align: center;
+  border-radius: 5px;
+  h5{
+    font-family: SF-Bold, sans-serif;
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  p {
+    font-family: SF, sans-serif;
+    font-size: 18px;
+    color: $grey;
+  }
+}
+.bg-popup{
+  &-1, &-2, &-3{
+    position: absolute;
+  }
+  &-1 {
+    top: -5px;
+    left: 10px;
+  }
+  &-2{
+    top: -20px;
+    right: 0;
+  }
+  &-3{
+    bottom: 0;
+    left: 0;
+  }
+}
