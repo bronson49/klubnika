@@ -45,11 +45,24 @@
        >   <img src="assets/images/menu2.svg"
         class="bg-menu-2"
         alt="image"
-       ></nav><div class="popup-wrapper" id="popup">
+       ></nav><div class="popup-wrapper" id="popup" style="display: none">
+    <div id="ajaxMsg" class="success-msg">
+        <h5>Спасибо за Вашу заявку</h5>
+        <p>Мы свяжемся с Вами в течении 15 минут</p>
+        <img src="assets/images/bg-popup-1.svg"
+             class="bg-popup-1"
+             alt="image"
+            >        <img src="assets/images/bg-popup-2.svg"
+             class="bg-popup-2"
+             alt="image"
+            >        <img src="assets/images/bg-popup-3.svg"
+             class="bg-popup-3"
+             alt="image"
+            >    </div>
     <div class="popup-body">
         <p class="popup-body__head">Оставьте заявку</p>
         <div class="popup-body-close" id="closePopup"></div>
-        <form class="popup-body__form">
+        <form class="popup-body__form" id="formMain">
            <div class="popup-body__form-wrapper">
                <p class="popup-body__form-item">
                    <label for="name">Имя</label>
@@ -57,12 +70,13 @@
                </p>
                <p class="popup-body__form-item">
                    <label for="phone">Телефон</label>
-                   <input type="text" name="phone" required>
+                   <input type="text" name="phone" id="phone" required>
                </p>
                <p class="popup-body__form-item">
                    <label for="mail">Почта</label>
-                   <input type="text" name="mail" required>
+                   <input type="text" name="mail" id="mail" required>
                </p>
+               <input type="text" name="info" id="info" value="" hidden>
            </div>
             <input type="submit" value="ОТПРАВИТЬ ЗАЯВКУ" class="popup-body__form-submit">
         </form>
@@ -159,7 +173,7 @@
                         </div>
                         <div class="vacancy-item__btn">
                             <a href="#" class="vacancy-detail">подробнее</a>
-                            <a href="#" class="vacancy-order">оптравить заявку</a>
+                            <a href="#" class="vacancy-order" data-info="Сбор ягод в Чехии">оптравить заявку</a>
                         </div>
                         <div class="vacancy-item__info">
                             <div class="vacancy-item__info-close"></div>
@@ -216,7 +230,7 @@
                         </div>
                         <div class="vacancy-item__btn">
                             <a href="#" class="vacancy-detail">подробнее</a>
-                            <a href="#" class="vacancy-order">оптравить заявку</a>
+                            <a href="#" class="vacancy-order" data-info="Обрезание плодовых деревьев">оптравить заявку</a>
                         </div>
                         <div class="vacancy-item__info">
                             <div class="vacancy-item__info-close"></div>
@@ -273,7 +287,7 @@
                         </div>
                         <div class="vacancy-item__btn">
                             <a href="#" class="vacancy-detail">подробнее</a>
-                            <a href="#" class="vacancy-order">оптравить заявку</a>
+                            <a href="#" class="vacancy-order" data-info="Сбор ягод в Чехии">оптравить заявку</a>
                         </div>
                         <div class="vacancy-item__info">
                             <div class="vacancy-item__info-close"></div>
@@ -330,7 +344,7 @@
                         </div>
                         <div class="vacancy-item__btn">
                             <a href="#" class="vacancy-detail">подробнее</a>
-                            <a href="#" class="vacancy-order">оптравить заявку</a>
+                            <a href="#" class="vacancy-order" data-info="Вакансия тракториста">оптравить заявку</a>
                         </div>
                         <div class="vacancy-item__info">
                             <div class="vacancy-item__info-close"></div>
