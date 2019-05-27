@@ -3,6 +3,7 @@ import Inputmask from 'inputmask/dist/jquery.inputmask.bundle';
 
 import {menuFunc} from '../components/menu/menu';
 import {vacancyFunc} from '../components/vacancy/vacancy';
+import {headerFunc} from '../components/header/header';
 import {certFunc} from '../components/certif/certif';
 import {eatFunc} from '../components/toeat/toeat';
 import {testimonialFunc} from '../components/testimonials/testimonials';
@@ -11,6 +12,7 @@ import {infoFunc} from '../components/info/info';
 import {popupFunc} from '../components/vacancyPopup/vacancyPopup';
 
 menuFunc();
+headerFunc();
 vacancyFunc();
 eatFunc();
 certFunc();

@@ -54,6 +54,17 @@ h3 {
   border-radius: 100%;
   cursor: pointer;
   transition: 1s;
+  &:after{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    content: '';
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    transform: rotate(135deg);
+    left: 19px;
+    top: 21px;
+  }
 }
 
 .slider-arr-prev, .slider-arr-next{
