@@ -121,3 +121,23 @@
   border-radius:100% 100% 0 0 ;
   z-index: -1;
 }
+
+@media all and (max-width: 450px){
+  .container-faq{
+    padding: 20px 0;
+  }
+  .faq__body{
+    flex-direction: column;
+    height: auto;
+    &-category{
+      width: 100%;
+    }
+    &-answers{
+      width: 100%;
+      height: 350px;
+      &-container p {
+        padding-right: 5px;
+      }
+    }
+  }
+}

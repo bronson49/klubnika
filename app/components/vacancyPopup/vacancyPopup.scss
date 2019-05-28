@@ -99,3 +99,17 @@
     left: 0;
   }
 }
+
+@media all and (max-width: 450px) {
+  .popup-body__head{
+    font-size: 22px;
+  }
+  .popup-body{
+    &__form-wrapper {
+      padding: 15px 40px 50px;
+    }
+  }
+  .popup-body-close{
+    top: 32px;
+  }
+}

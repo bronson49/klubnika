@@ -106,6 +106,30 @@ h3 {
     margin: 40px 20% 70px;
   }
 }
-@media all and (max-width: 450px){
+@media all and (min-width: 451px){
 
+}
+@media all and (max-width: 450px){
+  .mobile-none{
+    display: none;
+  }
+  .bg{
+    display: none;
+  }
+  .container{
+    margin: 20px 10px 0;
+  }
+  .container-fat {
+    margin: 20px 10px 0;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    margin: 10px 5% 10px;
+  }
+  .btn-up{
+    right: 15px;
+    bottom: 10%;
+  }
 }

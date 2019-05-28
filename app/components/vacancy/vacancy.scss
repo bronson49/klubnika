@@ -146,3 +146,41 @@
     }
   }
 }
+
+@media all and (max-width: 450px){
+  .vacancy__body{
+    grid-template-columns: 1fr;
+    grid-gap:30px 0;
+  }
+  .vacancy-item{
+    margin: 0;
+    box-shadow: 0 0 10px $green;
+    &__main{
+      margin: 5px;
+    }
+    &__btn{
+      flex-direction: column;
+    }
+    &__descr{
+      flex-direction: column;
+    }
+    &__info-body{
+      margin: 10px 5px 5px;
+    }
+    & > img {
+      width: 100%;
+    }
+  }
+  .vacancy-name{
+    font-size: 19px;
+    width: 60%;
+  }
+  .vacancy-prise{
+    font-size: 21px;
+  }
+  .vacancy-detail, .vacancy-order {
+    height: 50px;
+    padding-top: 10px;
+    border-radius: 0;
+  }
+}

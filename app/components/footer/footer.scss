@@ -15,3 +15,12 @@
     z-index: -1;
   }
 }
+
+@media all and (max-width: 450px){
+  .footer {
+    margin-top: 50px;
+    &__text{
+      padding: 0;
+    }
+  }
+}

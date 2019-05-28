@@ -35,3 +35,9 @@
     }
   }
 }
+
+@media all and (max-width: 450px) {
+  .to-live__body img {
+    width: 100%;
+  }
+}

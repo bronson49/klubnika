@@ -16,6 +16,15 @@ const certFunc = function () {
                     centerPadding: '100px',
                 }
             },
+            {
+                breakpoint: 450,
+                settings: {
+                    initialSlide: 1,
+                    slidesToShow: 1,
+                    centerMode: false,
+                    centerPadding: '0px',
+                }
+            },
         ]
     });
 };

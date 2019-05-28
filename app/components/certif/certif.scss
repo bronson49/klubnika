@@ -29,3 +29,19 @@
     width: 300px;
   }
 }
+@media all and (max-width: 450px){
+  .cert {
+    margin: 20px 0 50px;
+    &__slider-img{
+      width: 100%;
+    }
+    &__slider-controls{
+      margin-top: 5px;
+    }
+  }
+  .cert__slider-item.slick-active img{
+    transform: scale(1);
+  }
+  .cert-prev{left: 50px}
+  .cert-next{right: 50px}
+}

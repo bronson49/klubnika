@@ -6,6 +6,14 @@ const headerFunc = function () {
         dots: true,
         prevArrow: $('.header-prev'),
         nextArrow: $('.header-next'),
+        responsive: [{
+
+            breakpoint: 450,
+            settings: {
+                dots: false
+            }
+
+        }]
     });
 
     $('.header-link').click(function () {

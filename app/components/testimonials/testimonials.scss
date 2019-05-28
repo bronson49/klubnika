@@ -101,3 +101,28 @@
     }
   }
 }
+
+@media all and (max-width: 450px) {
+  .testimonial{
+    margin-top: 20px;
+    padding-top: 20px;
+    &__head{
+      margin: 0 0 50px;
+      & h2:before{
+       content: none;
+      }
+    }
+  }
+  .testimon-slider{
+    margin: 5px;
+    &__item {
+      height: auto;
+      padding: 10px;
+      margin: 0 5px;
+    }
+  }
+  .testimon__slider-controls{
+    bottom: 0;
+    right: 50%;
+  }
+}

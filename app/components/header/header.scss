@@ -87,3 +87,41 @@
 .bg-underheader-1{
   top: -10px;
 }
+
+@media all and (max-width: 450px){
+  .header{
+    &-img{
+      height: auto;
+    }
+    &-slider{
+      &__item-content{
+        left: 10px;
+        top: 0;
+        text-align: center;
+        h4 {
+          font-size: 30px;
+        }
+        h5 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 15px;
+          width: auto;
+          margin: 10px 0;
+        }
+        a {
+          padding: 5px;
+        }
+      }
+    }
+    &-prev{
+      left: 10px;
+      top: 210px;
+    }
+
+    &-next{
+      right: 10px;
+      top: 210px;
+    }
+  }
+}

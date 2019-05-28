@@ -6,6 +6,14 @@ const testimonialFunc = function () {
         dots: false,
         prevArrow: $('.testimon-prev'),
         nextArrow: $('.testimon-next'),
+        responsive: [
+            {
+                breakpoint: 450,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ],
     });
 };
 

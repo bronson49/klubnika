@@ -44,3 +44,11 @@
     top: 2700px;
   }
 }
+
+@media all and (max-width: 450px) {
+  .info__body{
+    &-text{
+      padding: 20px 5px;
+    }
+  }
+}
