@@ -26,6 +26,8 @@
         color: $green;
         font-size: 12px;
         font-weight: 600;
+        display: flex;
+        align-items: center;
         span {
           font-size: 18px;
           color: $black;

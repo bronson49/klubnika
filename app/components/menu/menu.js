@@ -12,8 +12,8 @@ const menuFunc= function () {
 
 
     $(window).scroll(function (e) {
+        let _scrollTop = $(window).scrollTop();
         if (window.matchMedia('(min-width: 450px)').matches) {
-            let _scrollTop = $(window).scrollTop();
             $('.bg').each(function (i) {
                 let parallaxStep = topInit[i] - (_scrollTop * 0.3) + 'px';
                 $(this).css({'top': parallaxStep});
