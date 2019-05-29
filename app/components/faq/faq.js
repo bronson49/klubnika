@@ -21,7 +21,8 @@ const faqFunc = function () {
         let answers = $('.faq__body-answers-item')[tabNumber];
         $('.active-faq-tab').removeClass('active-faq-tab');
         $(answers).addClass('active-faq-tab');
-
+        $('.faq-open').removeClass('faq-open');
+        $(answers).find('.faq__body-answers-container').first().addClass('faq-open');
     });
 };
 
