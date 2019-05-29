@@ -54,6 +54,7 @@ h3 {
   border-radius: 100%;
   cursor: pointer;
   transition: 1s;
+  box-shadow: 0 15px 25px 2px rgba(118,196,125,.4);
   &:after{
     position: absolute;
     width: 10px;
@@ -64,6 +65,15 @@ h3 {
     transform: rotate(135deg);
     left: 19px;
     top: 21px;
+  }
+  & span {
+    position: absolute;
+    left: -2px;
+    bottom: -30px;
+    font-family: SF, sans-serif;
+    font-size: 18px;
+    color: $grey;
+    text-transform: lowercase;
   }
 }
 
