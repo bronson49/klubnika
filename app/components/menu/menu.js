@@ -10,27 +10,29 @@ const menuFunc= function () {
         topInit.push(parseInt( $(this).css('top') ))
     });
 
-    if (window.matchMedia('(min-width: 450px)').matches) {
-        $(window).scroll(function (e) {
+
+    $(window).scroll(function (e) {
+        if (window.matchMedia('(min-width: 450px)').matches) {
             let _scrollTop = $(window).scrollTop();
             $('.bg').each(function (i) {
                 let parallaxStep = topInit[i] - (_scrollTop * 0.3) + 'px';
                 $(this).css({'top': parallaxStep});
             });
+        }
 
-            if (_scrollTop > 600){
-                $('#btnUp').css({
-                    'opacity': 1,
-                    'visibility': 'visible'
-                })
-            } else {
-                $('#btnUp').css({
-                    'opacity': 0,
-                    'visibility': 'hidden'
-                })
-            }
-        });
-    }
+        if (_scrollTop > 600){
+            $('#btnUp').css({
+                'opacity': 1,
+                'visibility': 'visible'
+            })
+        } else {
+            $('#btnUp').css({
+                'opacity': 0,
+                'visibility': 'hidden'
+            })
+        }
+    });
+
 
 
   $('#btnUp').click(function () {
