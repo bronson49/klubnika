@@ -15,7 +15,7 @@ const menuFunc= function () {
         let _scrollTop = $(window).scrollTop();
         if (window.matchMedia('(min-width: 450px)').matches) {
             $('.bg').each(function (i) {
-                let parallaxStep = topInit[i] - (_scrollTop * 0.3) + 'px';
+                let parallaxStep = topInit[i] - (_scrollTop * 0.1) + 'px';
                 $(this).css({'top': parallaxStep});
             });
         }
@@ -42,10 +42,12 @@ const menuFunc= function () {
       let elementClick = $(this).attr("href");
       let destination = $(elementClick).offset().top;
       $('html, body').animate({ scrollTop: destination-100 }, 800);
-      $('.mobile-menu').removeClass('mobile-menu-open');
+      $('.menu-list-wrapper').removeClass('mobile-menu-open');
       return false;
   });
-  
+  $('.menu-list-wrapper').click(function () {
+      $(this).toggleClass('mobile-menu-open');
+  });
 };
 
 export {menuFunc}

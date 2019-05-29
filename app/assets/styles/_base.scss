@@ -39,7 +39,7 @@ h3 {
 }
 .bg{
   position: absolute;
-  transition: 3s ;
+  transition: 1s ;
   &-left{left: -$wrap-margin;}
   &-right{right: -$wrap-margin;}
 }

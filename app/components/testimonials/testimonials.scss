@@ -91,13 +91,13 @@
 .bg {
   &-testim{
     &-1{
-      top: 700px;
+      top: -700px;
     }
     &-2{
-      top: 1700px;
+      top: -100px;
     }
     &-3{
-      top: 1800px;
+      top: 0;
     }
   }
 }
