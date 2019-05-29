@@ -11,7 +11,11 @@
     margin: 0 auto;
     border-radius: 10px;
     position: relative;
-    box-shadow: 0 13px 20px #F0F2F4;
+    box-shadow: 0 13px 20px #cdcfd1;
+    transition: .4s;
+    &:hover{
+      box-shadow: 0 13px 35px #b6b8ba;
+    }
     &__main, &__descr, &__btn{
       display: flex;
       justify-content: space-between;

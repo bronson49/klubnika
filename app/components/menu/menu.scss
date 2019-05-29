@@ -112,6 +112,18 @@
       margin: 30px auto;
       display: block;
     }
+
+  }
+  .mobile-menu-open{
+    &:before{
+      position: absolute;
+      content: '';
+      top: 0;
+      left: -100vw;
+      width: 110vw;
+      height: 100vh;
+      background: rgba(75,75,75,0.8);
+    }
   }
   .mobile-menu-open .menu__list{
     transform: scale(1);

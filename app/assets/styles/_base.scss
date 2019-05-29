@@ -118,12 +118,14 @@ h3 {
   }
 }
 @media all and (min-width: 451px){
-
+  .desktop-none{
+    display: none!important;
+  }
 
 }
 @media all and (max-width: 450px){
   .mobile-none{
-    display: none;
+    display: none!important;
   }
   .bg{
     display: none;
