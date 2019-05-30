@@ -78,6 +78,8 @@
         margin: 20px 50px 5px;
         max-height: calc(100% - 70px);
         overflow-y: scroll;
+        scrollbar-color:$green #9cd2b0;
+        scrollbar-width: thin;
         p {
           font-family: SF-Bold, sans-serif;
           font-size: 18px;
