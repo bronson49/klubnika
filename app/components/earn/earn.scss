@@ -60,7 +60,23 @@
     }
   }
 }
-
+@media all and (max-width: 800px){
+  .earn__body{
+    flex-direction: column;
+    &-item{
+      width: 100%;
+      text-align: center;
+      &:nth-child(2){
+        border-top: 1px solid $background;
+        border-bottom: 1px solid $background;
+      }
+      &_price{
+        font-size: 55px;
+        margin-top: 5px;
+      }
+    }
+  }
+}
 @media all and (max-width: 450px){
   .earn__head h3 {
     margin: 10px 5% 20px;

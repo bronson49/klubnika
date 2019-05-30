@@ -39,6 +39,8 @@
         visibility: hidden;
         opacity: 0;
         transition: .4s;
+        scrollbar-color:$green #9cd2b0;
+        scrollbar-width: thin;
         &::-webkit-scrollbar-track{
           background-color: #9cd2b0;
         }
@@ -127,6 +129,11 @@
   z-index: -1;
 }
 
+@media all and (max-width: 800px){
+  .container-faq{
+    padding: 20px 5px;
+  }
+}
 @media all and (max-width: 450px){
   .container-faq{
     padding: 20px 0;

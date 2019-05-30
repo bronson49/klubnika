@@ -55,11 +55,23 @@
     }
   }
 }
-
+@media all and (max-width: 800px){
+  .offer__body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    &-item{
+      max-width: 300px;
+    }
+  }
+}
 @media all and (max-width: 450px){
   .offer__body{
     display: grid;
     grid-template-columns: 1fr ;
     grid-gap: 5px;
+    &-item{
+      max-width: 500px;
+    }
   }
 }

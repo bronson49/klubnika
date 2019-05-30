@@ -8,6 +8,12 @@ const testimonialFunc = function () {
         nextArrow: $('.testimon-next'),
         responsive: [
             {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
                 breakpoint: 450,
                 settings: {
                     slidesToShow: 1,

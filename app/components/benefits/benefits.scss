@@ -54,7 +54,18 @@
     }
   }
 }
-
+@media all and (max-width: 800px){
+  .benefits__body-item {
+    width: 40%;
+    margin: 0 45px;
+  }
+  .benefits__body-item p {
+    padding: 10px 0 5px;
+  }
+  .benefits-list-item:before {
+    left: -55px;
+  }
+}
 @media all and (max-width: 450px) {
   .benefits__body {
     flex-direction: column;

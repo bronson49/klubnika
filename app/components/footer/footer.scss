@@ -15,7 +15,14 @@
     z-index: -1;
   }
 }
-
+@media all and (max-width: 800px){
+  .footer {
+    margin-top: 100px;
+    &__text{
+      padding: 10px;
+    }
+  }
+}
 @media all and (max-width: 450px){
   .footer {
     margin-top: 50px;

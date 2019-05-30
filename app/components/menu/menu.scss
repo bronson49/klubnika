@@ -95,9 +95,35 @@
     }
   }
 }
+@media all and (max-width: 800px){
+  .menu{
+    padding: 25px 20px;
+    &__list{
+      margin: 0 10px;
+      &-item{
+        margin: 0 10px 0 5px;
+      }
+    }
+    &__phone{
+      width: 210px;
+    }
+    &__language{
+      margin-right: 20px;
+    }
+  }
+  .bg-menu-1, .bg-menu-2{
+    display: none;
+  }
+}
 @media all and (max-width: 450px){
   .menu{
     padding: 5px;
+    &__phone{
+      width: auto;
+    }
+    &__language{
+      margin-right: 0;
+    }
   }
   .menu-list-wrapper{
     position: relative;

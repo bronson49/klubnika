@@ -38,6 +38,12 @@
   }
 }
 
+@media all and (max-width: 800px){
+  .to-eat__slider-item img {
+    width: 100%;
+  }
+}
+
 @media all and (max-width: 450px) {
   .to-eat__slider-item {
     img {

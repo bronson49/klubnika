@@ -123,6 +123,17 @@ h3 {
   }
 
 }
+@media all and (max-width: 800px){
+  .container{
+    margin: 70px  80px 0;
+  }
+  h3 {
+    margin: 30px 5% 10px;
+  }
+  .bg{
+    display: none!important;
+  }
+}
 @media all and (max-width: 450px){
   .mobile-none{
     display: none!important;

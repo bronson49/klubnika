@@ -39,7 +39,18 @@
     }
   }
 }
-
+@media all and (max-width: 800px){
+  .contact__body {
+    flex-direction: column;
+    &-map{
+      width: 100%;
+    }
+    &-info{
+      width: 100%;
+      padding: 0 15px;
+    }
+  }
+}
 @media all and (max-width: 450px) {
   .contact__body {
     flex-direction: column;

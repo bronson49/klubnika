@@ -29,6 +29,15 @@
     width: 300px;
   }
 }
+@media all and (max-width: 800px){
+  .cert__slider-img{
+    width: 100%;
+    transform: scale(1);
+  }
+  .cert-prev{left: 150px}
+  .cert-next{right: 150px}
+  .cert__slider-item.slick-active img, .cert__slider-item.slick-center img {transform: scale(1);}
+}
 @media all and (max-width: 450px){
   .cert {
     margin: 20px 0 50px;

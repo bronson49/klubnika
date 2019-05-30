@@ -57,6 +57,11 @@
     transform: scaleX(1);
   }
 }
+@media all and (max-width: 800px){
+  .to-live:before{
+    content: none;
+  }
+}
 @media all and (max-width: 450px) {
   .to-live__body img {
     width: 100%;

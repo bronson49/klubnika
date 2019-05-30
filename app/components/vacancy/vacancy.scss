@@ -166,7 +166,32 @@
     }
   }
 }
+@media all and (max-width: 800px){
+  .vacancy__body{
+    grid-template-columns: 1fr;
+    grid-gap:20px 0;
+  }
+  .vacancy-item{
+    margin: 0;
+    box-shadow: 0 0 10px $green;
+    &__main{
+      margin: 15px;
+    }
+    &__info-body{
+      margin: 10px 5px 5px;
+    }
+    &__descr{
+      margin: 10px 20px;
+    }
+  }
+  .vacancy-name{
+    font-size: 20px;
+  }
+  .vacancy-prise{
+    font-size: 35px;
+  }
 
+}
 @media all and (max-width: 450px){
   .vacancy__body{
     grid-template-columns: 1fr;
